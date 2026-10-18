@@ -138,8 +138,7 @@ section {scroll-margin-top: 100px;}
     background: #102A43; position: relative;}
 .footer-logo {font-size: 25px; color: #FFFFFF; text-decoration: none;}
 .footer-logo span {color: #247BA0;}
-.footer p {color: #FFFFFF; font-size: 10px; text-align: center; margin: 0; position: absolute; left: 50%;
-    transform: translateX(-50%);}
+.footer p {color: #FFFFFF; font-size: 10px; text-align: center; margin: 0 auto;}
 
 @keyframes fadeUp {from {opacity: 0; transform: translateY(20px);} to {opacity: 1; transform: translateY(0);}}
 @keyframes rotateOrbit {from {transform: rotate(0deg);} to {transform: rotate(360deg);}}
