@@ -19,7 +19,7 @@ section {scroll-margin-top: 100px;}
 .hero {min-height: 680px; padding: 85px 9%; display: grid; grid-template-columns: 1.1fr 0.9fr; align-items: center; gap: 60px;
     position: relative; overflow: hidden; background: radial-gradient(circle at 90% 15%, rgba(36, 123, 160, 0.09), transparent 30%),
      #F5F8FB;}
-.hero-content {position: relative; z-index: 2; animation: fadeUp 0.8s ease;}
+.hero-content {position: relative; z-index: 2;}
 .hero-greeting {font-size: 36px; font-weight: 500; color: #102A43; margin-bottom: 10px;}
 .hero h1 {font-size: clamp(42px, 5.5vw, 72px); line-height: 1.12; letter-spacing: -3px; color: #102A43; font-weight: 800;
     margin-bottom: 20px;}
@@ -138,8 +138,6 @@ section {scroll-margin-top: 100px;}
 .footer-logo {font-size: 25px; color: #FFFFFF; text-decoration: none;}
 .footer-logo span {color: #247BA0;}
 .footer p {color: #FFFFFF; font-size: 10px; text-align: center; margin: 0 auto;}
-
-@keyframes fadeUp {from {opacity: 0; transform: translateY(20px);} to {opacity: 1; transform: translateY(0);}}
 
 @media (max-width: 650px) {
     .navbar {width: 100%; padding: 15px 5%; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;
