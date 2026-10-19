@@ -143,44 +143,6 @@ section {scroll-margin-top: 100px;}
 @keyframes fadeUp {from {opacity: 0; transform: translateY(20px);} to {opacity: 1; transform: translateY(0);}}
 @keyframes rotateOrbit {from {transform: rotate(0deg);} to {transform: rotate(360deg);}}
 
-@media (max-width: 650px) {
-    .navbar {width: 100%; padding: 15px 5%; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;
-        gap: 12px; box-sizing: border-box;}
-    .navbar .logo {font-size: clamp(21px, 5vw, 25px); flex-shrink: 0;}
-    .nav-menu {display: flex; flex: 1; justify-content: flex-end; align-items: center; flex-wrap: wrap; gap: 8px 12px; min-width: 0;}
-    .nav-menu a {font-size: clamp(9px, 2.5vw, 11px); white-space: nowrap;}
-    .hero {min-height: auto; padding: 65px 7% 80px; grid-template-columns: 1fr; gap: 60px;}
-    .hero-content {order: 1;}
-    .hero-greeting {font-size: clamp(28px, 6vw, 34px); line-height: 1.3;}
-    .hero-visual {order: 0; width: min(85%, 310px); aspect-ratio: 1 / 1; justify-self: center;}
-    .hero h1 {font-size: clamp(36px, 8vw, 48px); line-height: 1.15; letter-spacing: -1.5px; overflow-wrap: anywhere;}
-    .hero-description {font-size: 12px;}
-    .hero-tags {gap: 8px;}
-    .hero-tags span {font-size: 9px;}
-    .section {padding: 75px 7%;}
-    .section-heading {margin-bottom: 35px;}
-    .section-heading h2 {font-size: 33px;}
-    .about-content {grid-template-columns: 1fr; gap: 30px;}
-    .about-label { min-height: 190px;}
-    .skills-container {grid-template-columns: 1fr;}
-    .skill-card > p {min-height: auto;}
-    .project-container {grid-template-columns: 1fr;}
-    .project-visual {height: 180px;}
-    .education-item {padding-left: 25px;}
-    .education-card {padding: 20px;}
-    .education-card h3 {font-size: 14px;}
-    .contact-box {display: grid; grid-template-columns: minmax(0, 1fr); width: 100%;
-        padding: clamp(24px, 5vw, 30px) clamp(16px, 4vw, 24px); gap: 30px; border-radius: 17px;}
-    .contact-heading,
-    .contact-methods {width: 100%; min-width: 0;}
-    .contact-methods {display: flex; flex-direction: column; gap: 16px;}    
-    .contact-method {width: 100%; min-width: 0; box-sizing: border-box; gap: 12px; padding: 16px; position: relative;}
-    .contact-detail {flex: 1; min-width: 0;}
-    .contact-detail strong {font-size: clamp(10px, 2.8vw, 12px); overflow-wrap: anywhere; word-break: normal;}
-    .contact-heading h2 {font-size: 36px;}
-    .footer {flex-direction: column; text-align: center; gap: 12px; padding: 25px 7%;}
-}
-
 @media (prefers-reduced-motion: reduce) {
     *,
     *::before,
